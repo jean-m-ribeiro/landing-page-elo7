@@ -1,3 +1,143 @@
 body {
+  margin: 0 auto;
+  font-family: "Martel Sans", sans-serif;
+  text-align: center;
+  background-color: #eeeeee;
+  color: #7d7873;
+}
+
+figure {
   margin: 0;
+  padding: 30px 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  margin: 0;
+}
+
+header,
+main,
+section {
+  padding: 25px 0;
+}
+
+header {
+  padding-top: 0;
+}
+
+header figure {
+  padding-top: 0;
+}
+
+header p {
+  margin: 0 5%;
+}
+
+#content-container {
+  background-color: #ffffff;
+  margin: 0 15%;
+}
+
+.titulo {
+  position: absolute;
+  top: 15vw;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 42px;
+  color: #ffffff;
+  text-shadow: 0 0 10px #000000;
+}
+
+#ceo-time {
+  background-color: #f6f6f6;
+}
+
+#ceo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 5%;
+}
+
+#ceo img {
+  width: 100%;
+  height: auto;
+}
+
+#ceo figure,
+#ceo div {
+  margin: 0 2%;
+}
+
+.ceo-texto {
+  width: 500px;
+  text-align: justify;
+}
+
+.tag-nome {
+  padding-bottom: 10px;
+  line-height: 10px;
+}
+
+.nome {
+  font-weight: 400;
+  font-style: italic;
+  color: #ffa500;
+}
+
+.foto-header {
+  width: 100%;
+}
+
+#time {
+  margin: 0 6%;
+}
+
+.fotos-time {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.fotos-time img {
+  margin: 0 auto;
+  padding: 5px;
+}
+
+#vantagens {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: justify;
+  margin: 0 6%;
+}
+
+#vantagens h3 {
+  text-align: center;
+}
+
+#vantagens p {
+  margin: 0;
+}
+
+#vantagens span {
+  font-style: italic;
+}
+
+#vantagens article {
+  width: 250px;
+  margin: 0 10px;
+}
+
+#vantagens article figure {
+  display: flex;
+  justify-content: center;
+}
+
+.foto-bottom {
+  width: 100%;
 }

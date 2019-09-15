@@ -5,122 +5,149 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Martel+Sans&display=swap"
+      rel="stylesheet"
+    />
     <title>Landing Page</title>
   </head>
 
   <body>
-    <header>
-      <figure>
-        <img src="imgs/foto-header.png" />
-        <figcaption></figcaption>
-      </figure>
-      <h1>Trabalhe no Elo7</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Dictum sit amet
-        justo donec enim diam. Ut venenatis tellus in metus. Auctor neque vitae
-        tempus quam pellentesque nec nam aliquam sem.
-      </p>
-      <hr />
-      <span
-        ><a>VAGAS EM ABERTO<small> >></small></a></span
-      >
-    </header>
-
-    <main>
-      <section>
+    <div id="content-container">
+      <header>
         <figure>
-          <img src="imgs/placeholder-video.png" />
+          <img class="foto-header" src="imgs/foto-header.png" />
           <figcaption></figcaption>
         </figure>
-        <h3>PALAVRA DO CEO</h3>
-        <h3>Carlos Curioni</h3>
+        <h1 class="titulo">Trabalhe no Elo7</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Dictum sit
           amet justo donec enim diam. Ut venenatis tellus in metus. Auctor neque
           vitae tempus quam pellentesque nec nam aliquam sem.
         </p>
-        <h2>
-          CONHEÇA NOSSO TIME <br />
-          FORA DE SÉRIE
-        </h2>
+        <hr width="200" />
+        <h3>
+          <a href="#vagas">VAGAS EM ABERTO<small> >></small></a>
+        </h3>
+      </header>
+
+      <main>
+        <section id="ceo-time">
+          <article id="ceo">
+            <figure>
+              <img src="imgs/placeholder-video.png" />
+              <figcaption></figcaption>
+            </figure>
+            <div class="ceo-texto">
+              <div class="tag-nome">
+                <h3>PALAVRA DO CEO</h3>
+                <h3 class="nome">Carlos Curioni</h3>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Dictum sit amet justo donec enim diam. Ut venenatis tellus in
+                metus. Auctor neque vitae tempus quam pellentesque nec nam
+                aliquam sem.
+              </p>
+            </div>
+          </article>
+          <article id="time">
+            <h3>
+              CONHEÇA NOSSO TIME <br />
+              FORA DE SÉRIE
+            </h3>
+
+            <figure class="fotos-time">
+              <img src="imgs/camila.png" />
+              <img src="imgs/guto.png" />
+              <img src="imgs/david.png" />
+              <img src="imgs/beatriz.png" />
+              <figcaption></figcaption>
+            </figure>
+          </article>
+        </section>
+
+        <section id="vantagens">
+          <article>
+            <figure>
+              <img src="imgs/qualidade.png" />
+              <figcaption></figcaption>
+            </figure>
+            <h3>QUALIDADE DE VIDA</h3>
+            <span
+              >Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span
+            >
+            <p>
+              Dictum sit amet justo donec enim diam. Ut venenatis tellus in
+              metus. Auctor neque vitae tempus quam pellentesque nec nam aliquam
+              sem.
+            </p>
+          </article>
+          <article>
+            <figure>
+              <img src="imgs/descontracao.png" />
+              <figcaption></figcaption>
+            </figure>
+            <h3>AMBIENTE DESCONTRAÍDO</h3>
+            <span
+              >Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span
+            >
+            <p>
+              Dictum sit amet justo donec enim diam. Ut venenatis tellus in
+              metus. Auctor neque vitae tempus quam pellentesque nec nam aliquam
+              sem.
+            </p>
+          </article>
+          <article>
+            <figure>
+              <img src="imgs/atividades.png" />
+              <figcaption></figcaption>
+            </figure>
+            <h3>ATIVIDADES EXTRAS</h3>
+            <span
+              >Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span
+            >
+            <p>
+              Dictum sit amet justo donec enim diam. Ut venenatis tellus in
+              metus. Auctor neque vitae tempus quam pellentesque nec nam aliquam
+              sem.
+            </p>
+          </article>
+        </section>
+        <hr width="200" />
+        <h3>
+          <a href="https://carreira.elo7.com.br"
+            >SAIBA MAIS<small> >></small></a
+          >
+        </h3>
+
         <figure>
-          <img src="imgs/camila.png" />
-          <img src="imgs/guto.png" />
-          <img src="imgs/david.png" />
-          <img src="imgs/beatriz.png" />
+          <img class="foto-bottom" src="imgs/foto-bottom.png" />
           <figcaption></figcaption>
         </figure>
-      </section>
 
-      <section>
-        <article>
-          <figure>
-            <img src="imgs/qualidade.png" />
-            <figcaption></figcaption>
-          </figure>
-          <h2>QUALIDADE DE VIDA</h2>
-          <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
-          <p>
-            Dictum sit amet justo donec enim diam. Ut venenatis tellus in metus.
-            Auctor neque vitae tempus quam pellentesque nec nam aliquam sem.
-          </p>
-        </article>
-        <article>
-          <figure>
-            <img src="imgs/descontracao.png" />
-            <figcaption></figcaption>
-          </figure>
-          <h2>AMBIENTE DESCONTRAÍDO</h2>
-          <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
-          <p>
-            Dictum sit amet justo donec enim diam. Ut venenatis tellus in metus.
-            Auctor neque vitae tempus quam pellentesque nec nam aliquam sem.
-          </p>
-        </article>
-        <article>
-          <figure>
-            <img src="imgs/atividades.png" />
-            <figcaption></figcaption>
-          </figure>
-          <h2>ATIVIDADES EXTRAS</h2>
-          <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
-          <p>
-            Dictum sit amet justo donec enim diam. Ut venenatis tellus in metus.
-            Auctor neque vitae tempus quam pellentesque nec nam aliquam sem.
-          </p>
-        </article>
-        <hr />
-        <span
-          ><a>SAIBA MAIS<small> >></small></a></span
-        >
-      </section>
+        <section id="vagas">
+          <h2>VAGAS EM ABERTO</h2>
+          <h3>DESENVOLVIMENTO</h3>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </section>
+      </main>
 
-      <figure>
-        <img src="imgs/foto-bottom.png" />
-        <figcaption></figcaption>
-      </figure>
-
-      <section>
-        <h2>VAGAS EM ABERTO</h2>
-        <h3>DESENVOLVIMENTO</h3>
-        <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
-        <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
-      </section>
-    </main>
-
-    <footer>
-      <p></p>
-    </footer>
+      <footer>
+        <p></p>
+      </footer>
+    </div>
 
     <script type="text/javascript" src="api.js"></script>
   </body>

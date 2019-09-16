@@ -1,3 +1,4 @@
+/* Global style */
 body {
   margin: 0 auto;
   font-family: "Martel Sans", sans-serif;
@@ -7,7 +8,6 @@ body {
 }
 
 figure {
-  margin: 0;
   padding: 30px 0;
 }
 
@@ -16,7 +16,8 @@ a {
   color: #0066ff;
 }
 
-header {
+header,
+figure {
   margin: 0;
 }
 
@@ -26,21 +27,28 @@ section {
   padding: 25px 0;
 }
 
-header {
-  padding-top: 0;
+#content-container {
+  background-color: #ffffff;
+  margin: 0 15%;
 }
 
+header p,
+#ceo,
+#time,
+#vantagens,
+#vagas {
+  margin: 0 6%;
+}
+
+/* Header style */
+
+header,
 header figure {
   padding-top: 0;
 }
 
-header p {
-  margin: 0 6%;
-}
-
-#content-container {
-  background-color: #ffffff;
-  margin: 0 15%;
+.foto-header {
+  width: 100%;
 }
 
 .titulo {
@@ -53,6 +61,8 @@ header p {
   text-shadow: 0 0 10px #000000;
 }
 
+/* CEO-Time style */
+
 #ceo-time {
   background-color: #f6f6f6;
 }
@@ -61,7 +71,6 @@ header p {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 0 6%;
 }
 
 #ceo img {
@@ -90,14 +99,6 @@ header p {
   color: #ffa500;
 }
 
-.foto-header {
-  width: 100%;
-}
-
-#time {
-  margin: 0 6%;
-}
-
 .fotos-time {
   display: flex;
   flex-wrap: wrap;
@@ -110,24 +111,13 @@ header p {
   width: 14vw;
 }
 
+/* Vantagens style */
+
 #vantagens {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   text-align: justify;
-  margin: 0 6%;
-}
-
-#vantagens h3 {
-  text-align: center;
-}
-
-#vantagens p {
-  margin: 0;
-}
-
-#vantagens span {
-  font-style: italic;
 }
 
 #vantagens article {
@@ -141,13 +131,23 @@ header p {
   justify-content: center;
 }
 
+#vantagens h3 {
+  text-align: center;
+}
+
+#vantagens span {
+  font-style: italic;
+}
+
+#vantagens p {
+  margin: 0;
+}
+
 .foto-bottom {
   width: 100%;
 }
 
-#vagas {
-  margin: 0 6%;
-}
+/* Vagas style */
 
 #vagas h3 {
   text-align: left;
@@ -178,13 +178,13 @@ header p {
   font-weight: 700;
 }
 
+/* Media query */
+
 @media only screen and (max-width: 600px) {
   #content-container {
     margin: 0;
   }
-  #vagas h3 {
-    text-align: center;
-  }
+
   header p,
   #ceo,
   #time,
@@ -192,9 +192,15 @@ header p {
   #vagas {
     margin: 0 3%;
   }
+
+  #vagas h3 {
+    text-align: center;
+  }
+
   #vantagens article {
     width: 100%;
   }
+
   .fotos-time img {
     width: 40%;
   }

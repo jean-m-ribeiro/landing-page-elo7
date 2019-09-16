@@ -35,7 +35,7 @@ header figure {
 }
 
 header p {
-  margin: 0 5%;
+  margin: 0 6%;
 }
 
 #content-container {
@@ -61,7 +61,7 @@ header p {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 0 5%;
+  margin: 0 6%;
 }
 
 #ceo img {
@@ -107,6 +107,7 @@ header p {
 .fotos-time img {
   margin: 0 auto;
   padding: 5px;
+  width: 14vw;
 }
 
 #vantagens {
@@ -130,8 +131,9 @@ header p {
 }
 
 #vantagens article {
-  width: 250px;
-  margin: 0 10px;
+  width: 30%;
+  margin: 0 auto;
+  padding: 0 10px;
 }
 
 #vantagens article figure {
@@ -163,6 +165,7 @@ header p {
 
 .lista-vagas ul li {
   list-style-type: none;
+  padding: 8px;
 }
 
 #cargos {
@@ -173,4 +176,26 @@ header p {
 #localizacoes {
   color: #bbbbbb;
   font-weight: 700;
+}
+
+@media only screen and (max-width: 600px) {
+  #content-container {
+    margin: 0;
+  }
+  #vagas h3 {
+    text-align: center;
+  }
+  header p,
+  #ceo,
+  #time,
+  #vantagens,
+  #vagas {
+    margin: 0 3%;
+  }
+  #vantagens article {
+    width: 100%;
+  }
+  .fotos-time img {
+    width: 40%;
+  }
 }

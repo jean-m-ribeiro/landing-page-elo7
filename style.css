@@ -13,6 +13,7 @@ figure {
 
 a {
   text-decoration: none;
+  color: #0066ff;
 }
 
 header {
@@ -140,4 +141,36 @@ header p {
 
 .foto-bottom {
   width: 100%;
+}
+
+#vagas {
+  margin: 0 6%;
+}
+
+#vagas h3 {
+  text-align: left;
+}
+
+.lista-vagas {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lista-vagas ul {
+  margin: 0;
+  padding: 0;
+}
+
+.lista-vagas ul li {
+  list-style-type: none;
+}
+
+#cargos {
+  color: #0066ff;
+  font-weight: 700;
+}
+
+#localizacoes {
+  color: #bbbbbb;
+  font-weight: 700;
 }

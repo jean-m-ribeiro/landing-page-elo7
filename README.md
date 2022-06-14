@@ -8,4 +8,4 @@ Projeto de landing page responsiva, desenvolvido no Linux com VSCode
 - *Javascript*
 
 **Live Preview**
-https://jean-m-ribeiro.github.io/landing-page-elo7/index.html
+https://jeeanribeiro.github.io/landing-page-elo7/
